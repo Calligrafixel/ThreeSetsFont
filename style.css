@@ -1,0 +1,139 @@
+* {
+    margin: 0 auto;
+}
+@font-face { font-family: "1"; src: url("./font/1.otf"); }
+@font-face { font-family: "2"; src: url("./font/2.otf"); }
+@font-face { font-family: "3"; src: url("./font/3.otf"); }
+@font-face { font-family: "4"; src: url("./font/4.otf"); }
+@font-face { font-family: "5"; src: url("./font/5.otf"); }
+@font-face { font-family: "6"; src: url("./font/6.otf"); }
+@font-face { font-family: "7"; src: url("./font/7.otf"); }
+@font-face { font-family: "8"; src: url("./font/8.otf"); }
+@font-face { font-family: "9"; src: url("./font/9.otf"); }
+@font-face { font-family: "10"; src: url("./font/10.otf"); }
+@font-face { font-family: "11"; src: url("./font/11.otf"); }
+@font-face { font-family: "12"; src: url("./font/12.otf"); }
+@font-face { font-family: "13"; src: url("./font/13.otf"); }
+@font-face { font-family: "14"; src: url("./font/14.otf"); }
+@font-face { font-family: "15"; src: url("./font/15.otf"); }
+@font-face { font-family: "16"; src: url("./font/16.otf"); }
+@font-face { font-family: "17"; src: url("./font/17.otf"); }
+@font-face { font-family: "18"; src: url("./font/18.otf"); }
+@font-face { font-family: "19"; src: url("./font/19.otf"); }
+@font-face { font-family: "20"; src: url("./font/20.otf"); }
+@font-face { font-family: "21"; src: url("./font/21.otf"); }
+@font-face { font-family: "22"; src: url("./font/22.otf"); }
+@font-face { font-family: "23"; src: url("./font/23.otf"); }
+@font-face { font-family: "24"; src: url("./font/24.otf"); }
+@font-face { font-family: "25"; src: url("./font/25.otf"); }
+@font-face { font-family: "26"; src: url("./font/26.otf"); }
+@font-face { font-family: "27"; src: url("./font/27.otf"); }
+
+header {
+    width: 100vw; height: 40vh;
+    
+/*    background-color: red;*/
+}
+
+table {
+    table-layout: fixed;
+}
+header #initial_td {
+    background-color: #0000ff;
+    color: white;
+}
+header td {
+    width: 33vw;
+    max-width: 32.8vw;
+/*    height: auto;*/
+    height: 13vh;
+/*    max-height: 12.9vh;*/
+    
+    font-size: 3rem;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #e5e6e7;   
+}
+#font1 {
+    margin-left: 2rem;
+    font-family: "1"; font-size: 7rem;
+}
+#font2 {
+    margin-left: 2rem;
+    font-family: "2"; font-size: 7rem;
+}
+#font3 {
+    margin-left: 2rem;
+    font-family: "3"; font-size: 7rem;
+}
+#font4 {
+    margin-left: 2rem;
+    font-family: "4"; font-size: 7rem;
+}
+#font5 {
+    margin-left: 2rem;
+    font-family: "5"; font-size: 7rem;
+}
+#font6 {
+    margin-left: 2rem;
+    font-family: "6"; font-size: 7rem;
+}
+#font7 {
+    margin-left: 2rem;
+    font-family: "7"; font-size: 7rem;
+}
+#font8 {
+    margin-left: 2rem;
+    font-family: "8"; font-size: 7rem;
+}
+#font9 {
+    margin-left: 2rem;
+    font-family: "9"; font-size: 7rem;
+}
+
+
+main {
+    width: 100vw; height: 55vh;
+
+    background-color: blue;
+}
+textarea {
+    width: 95vw; height: calc(54vh - 4vw);
+    margin: 2vw;
+    
+    font-family: "1";
+    font-size: 10rem;
+
+    color: white;
+    background-color: blue;
+    
+    border: none;
+    resize: none;
+}
+textarea:focus {
+    outline: none;
+}
+footer {
+    width: 100vw; height: 5vh;
+    background-color: #e5e6e7;
+    
+    font-size: 3rem;
+}
+footer div {
+    width: 33vw;
+    margin-top: .4rem;
+    float: left;
+}
+
+footer div:nth-child(2) {
+    text-align: center;
+}
+footer div:nth-child(3) {
+    text-align: right;
+}
+footer .colorButton {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 4vh;
+    border: none;
+}
